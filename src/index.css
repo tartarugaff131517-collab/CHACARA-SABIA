@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-chacara-green: #23412F;
+    --color-chacara-green-dark: #172C1F;
+    --color-chacara-beige: #F6F2EB;
+    --color-chacara-beige-card: #EFEADF;
+    --color-chacara-gold: #C5A059;
+    --color-chacara-gold-hover: #B38E46;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #F6F2EB;
+    color: #23412F;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F6F2EB;
+}
+::-webkit-scrollbar-thumb {
+  background: #23412F;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #172C1F;
+}
+
+/* Smooth transitions */
+.transition-smooth {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+

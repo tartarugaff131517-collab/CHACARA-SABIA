@@ -1,0 +1,6 @@
+{
+  "name": "Chácara Sabiá - São Paulo",
+  "description": "Exclusiva chácara para aluguel de temporada, eventos, casamentos e descanso em São Paulo com piscina, área gourmet, acomodações de luxo e reservas diretas pelo WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
