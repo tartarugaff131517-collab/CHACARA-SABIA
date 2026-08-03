@@ -200,7 +200,7 @@ export const QuoteCalculatorModal: React.FC<QuoteCalculatorModalProps> = ({ isOp
                 R$ {totalEstimate.toLocaleString('pt-BR')}
               </span>
               <span className="text-[11px] text-stone-300 block mt-0.5">
-                (Em até 12x no cartão ou com 5% off no PIX)
+                (5% de desconto no PIX ou Transferência/Parcelamento programado)
               </span>
             </div>
 

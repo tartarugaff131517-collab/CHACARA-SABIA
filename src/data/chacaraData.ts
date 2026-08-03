@@ -106,8 +106,8 @@ export const AMENITIES: Amenity[] = [
   {
     id: 'estacionamento',
     iconName: 'Car',
-    title: 'Estacionamento Amplo',
-    description: 'Estacionamento privativo e seguro dentro da propriedade com capacidade para mais de 30 veículos.'
+    title: 'Estacionamento Privativo',
+    description: 'Estacionamento interno com capacidade para até 6 veículos.'
   },
   {
     id: 'quartos',
@@ -194,7 +194,7 @@ export const PRICING_PLANS: PricingPlan[] = [
     features: [
       'Espaço coberto e pergolado para cerimônia',
       'Suíte dos noivos / camarim inclusos',
-      'Estacionamento para 30+ carros com orientador',
+      'Estacionamento interno para até 6 veículos',
       'Gerador de energia de emergência',
       'Limpeza pós-evento inclusa no pacote'
     ]
@@ -327,17 +327,17 @@ export const FAQS: FaqItem[] = [
   {
     id: 'q5',
     question: 'A chácara aceita festas, casamentos e eventos corporativos?',
-    answer: 'Aceitamos! Possuímos infraestrutura própria para eventos com banheiros externos independentes, estacionamento amplo para 30+ carros, área de apoio para buffet e gerador de energia.'
+    answer: 'Aceitamos! Possuímos infraestrutura própria para eventos com banheiros externos independentes, estacionamento interno para até 6 carros, área de apoio para buffet e gerador de energia.'
   },
   {
     id: 'q6',
     question: 'Como funciona o processo de reserva?',
-    answer: 'A reserva é confirmada mediante assinatura de contrato digital simples e pagamento de sinal de 50%. O saldo restante pode ser pago até a data de entrada (check-in) via PIX ou parcelado no cartão de crédito.'
+    answer: 'A reserva é confirmada mediante assinatura de contrato digital simples e pagamento de sinal de 50%. O saldo restante deve ser pago até a data de entrada (check-in) via PIX, Transferência Bancária ou parcelamento direto programado.'
   },
   {
     id: 'q7',
     question: 'Quais as formas de pagamento aceitas?',
-    answer: 'Aceitamos PIX (com desconto de 5%), Cartão de Crédito em até 12x (com juros da maquininha) e Transferência Bancária (TED/DOC).'
+    answer: 'Aceitamos PIX (com desconto de 5%), Transferência Bancária (TED/DOC) e parcelamento direto programado.'
   },
   {
     id: 'q8',

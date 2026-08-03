@@ -1,7 +1,7 @@
 export interface GalleryItem {
   id: string;
   title: string;
-  category: 'Piscina' | 'Área Gourmet' | 'Quartos' | 'Sala' | 'Cozinha' | 'Campo' | 'Playground' | 'Natureza' | 'Vista aérea';
+  category: 'Piscina' | 'Área Gourmet' | 'Quartos' | 'Sala' | 'Cozinha' | 'Campo' | 'Playground' | 'Natureza' | 'Vista aérea' | 'Campo de Futebol' | 'Banheiros';
   imageUrl: string;
   description: string;
 }

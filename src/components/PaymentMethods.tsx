@@ -1,5 +1,5 @@
 import React from 'react';
-import { QrCode, CreditCard, Building2, CalendarRange, ShieldCheck, FileCheck2, Sparkles } from 'lucide-react';
+import { QrCode, Building2, CalendarRange, ShieldCheck, FileCheck2, Sparkles } from 'lucide-react';
 
 export const PaymentMethods: React.FC = () => {
   const methods = [
@@ -8,12 +8,6 @@ export const PaymentMethods: React.FC = () => {
       title: 'PIX Instantâneo',
       subtitle: 'Pagamento rápido e seguro',
       discount: '5% de Desconto à vista'
-    },
-    {
-      icon: <CreditCard className="w-8 h-8 text-[#C5A059]" />,
-      title: 'Cartão de Crédito',
-      subtitle: 'Aceitamos todas as bandeiras',
-      discount: 'Parcelamento em até 12x'
     },
     {
       icon: <Building2 className="w-8 h-8 text-[#C5A059]" />,
@@ -40,7 +34,7 @@ export const PaymentMethods: React.FC = () => {
           </h3>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
           {methods.map((item, idx) => (
             <div
               key={idx}

@@ -56,7 +56,7 @@ export const LocationSection: React.FC = () => {
                   <CheckCircle2 className="w-5 h-5 text-[#C5A059] shrink-0 mt-0.5" />
                   <div>
                     <h4 className="font-bold text-sm text-[#23412F]">Próximo às Principais Rodovias</h4>
-                    <p className="text-xs text-stone-600">Acesso facilitado e rápido pela Rodovia Castello Branco (km 50).</p>
+                    <p className="text-xs text-stone-600">Acesso facilitado e rápido pela Rodovia Castello Branco (km 51, entrada no pé da ponte).</p>
                   </div>
                 </div>
 
